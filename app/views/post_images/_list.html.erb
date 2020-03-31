@@ -1,0 +1,18 @@
+<section class="sct-color-1 slice">
+  <div class="container-fluid masonry-container">
+    <div class="row">      
+      <div class="col-md-8 col-sm-offset-2">
+        <div class="masonry-wrapper-cols">
+          <div class="masonry-gutter"></div>
+           
+          <% post_images.each do |post_image| %>
+            
+        ...
+        
+          <% end %>
+          <%= paginate post_images, class: "paginate" %>  
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

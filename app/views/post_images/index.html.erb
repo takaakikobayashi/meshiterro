@@ -5,6 +5,7 @@
         <div class="masonry-wrapper-cols">
           <div class="masonry-gutter"></div>
             <% @post_images.each do |post_image| %>
+            <%= render 'post_images/list', post_images: @post_images %>
             <div class="masonry-block">
               <div class="block block-image v1">
                 <div class="block-image">
